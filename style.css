@@ -1,0 +1,191 @@
+/* SPLASH PAGE */
+
+
+body {
+  background-color: white;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  position: absolute;
+  bottom: -16px;
+  color: white;
+}
+
+
+.container-fluid {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.btn {
+  background-color: #555555;
+}
+
+.col-a {
+  height: 10vh;
+  border: 1px solid black;
+  background-color: #9B9B8C;
+}
+
+.col-b-right {
+  height: 100vh;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-image: url('resources/track.jpg');
+  background-size: 94vh;
+  /*opacity: 0.19;*/
+
+}
+
+.col-b-left {
+  background-color: #EEE;
+  padding:172px 0px 0px 172px;
+}
+
+.btn-primary {
+  width:150px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.clear-tracks {
+  float: left;
+}
+
+h2 {
+  color:#4E0668;
+  margin-left: 8px;
+  margin-top: 60px;
+
+}
+
+.col-inner-a {
+  margin-top: 13px;
+  margin-left: 164px;
+ /*background-image: url('images/21.jpg');*/
+ background-size: 30vh;
+ padding-bottom: 178px;
+ background-repeat: no-repeat;
+
+
+}
+
+.col-inner-b {
+  margin-top: 15px;
+  margin-left: 164px;
+ /*background-image: url('images/division_bell.jpg');*/
+ background-size: 30vh;
+ padding-bottom: 184px;
+ background-repeat: no-repeat;
+
+
+}
+
+.col-inner-c {
+margin-top: 12px;
+margin-left: 164px;
+ /*background-image: url('images/ghost_in_the_machine.jpg');*/
+ background-size: 30vh;
+ padding-bottom: 180px;
+ background-repeat: no-repeat;
+
+
+}
+
+/* PLAYLIST PAGE */
+
+.little_box{
+  width: 200px;
+  height: 300px;
+  border: 2px solid #567;
+  overflow: scroll;
+}
+
+.long_box{
+  width: 100%;
+  height: 105px;
+  /*border: 1px solid black;*/
+  margin: 0px 20px;
+  overflow-x: scroll;
+}
+
+.inner_long_box{
+  width: 100000px;
+}
+
+.album_cover{
+  width: 103px;
+  height: 18vh;
+  /*border: 2px solid green;*/
+  float: left;
+  margin: 0px 20px;
+}
+
+.top-border {
+  height: 80px;
+  width: 100%;
+  border: 1px solid black;
+  background-color: #9B9B8C;
+  position: relative;
+}
+
+span {
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+position: absolute;
+bottom: 0;
+color: white;
+
+}
+
+img {
+  width: 75%;
+  height: 31vh;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+/* MAIN SECTION OF PLAYLIST */
+
+.main-section {
+  height: 350px;
+  width: 100%;
+  background-color: white;
+}
+
+.bottom-border {
+  height: 70px;
+  width: 100%;
+  background-color: #686859;
+}
+
+.offset-md-2 {
+  height: 171px;
+  border: 1px solid black;
+  margin-top: 33px;
+  background-color: #EEEEEE;
+
+}
+
+.playlist {
+  height: 102px;
+  width: 99px;
+  margin-top: 0px;
+}
+
+/* PLAYLIST BUTTONS */
+
+#submit_bin {
+  margin-top: -250px;
+  margin-left: 4px;
+
+}
+
+#empty_tracks {
+  margin-top: -250px;
+  margin-left: 195px;
+}
